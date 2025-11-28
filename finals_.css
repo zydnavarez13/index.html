@@ -1,0 +1,135 @@
+
+.card-img-top{
+    height: auto;
+    padding: 20px;
+    background-color: #fffde7 ;
+
+}
+
+
+.cards-section{
+    margin: 1.5rem auto 2rem; /* top auto bottom */
+    padding: 15px;
+    max-width: 1100px;
+   
+}
+
+
+
+.navbar-custom{
+    background-color: #1f1f1f;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link{
+    color: #ffffff;
+}
+.navbar-custom .nav-link.disabled{
+    opacity: .6;
+}
+
+
+body{
+
+    background-color: #f8f9fa;
+    background-image: url('Triplets_Baka.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.ident-box{
+   
+    --ident-bg: #ffffff;
+    --ident-accent: #0d6efd; 
+    --ident-radius: 6px;
+    --ident-padding: 12px 16px;
+
+    background: var(--ident-bg);
+    border-left: 4px solid var(--ident-accent);
+    padding: var(--ident-padding);
+    border-radius: var(--ident-radius);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+.ident-box dt{
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+.ident-box dd{
+    margin-left: 0;
+    margin-bottom: 8px;
+    color: #343a40;
+}
+
+
+
+.ident-neru{ /* warm/yellow accent */
+    --ident-accent: #ffdd57;
+}
+.ident-miku{ /* teal/cyan accent */
+    --ident-accent: #00c2cb;
+}
+.ident-kasane{ /* pink/purple accent */
+    --ident-accent: #d63384;
+}
+
+
+.ident-small{ --ident-padding: 8px 12px; font-size: 0.9rem; }
+.ident-medium{ --ident-padding: 12px 16px; font-size: 1rem; }
+.ident-large{ --ident-padding: 18px 20px; font-size: 1.05rem; }
+
+
+.ident-rounded{ --ident-radius: 16px; }
+.ident-outline{ background: transparent; box-shadow: none; border-left-width: 6px; }
+
+
+@media (max-width: 576px){
+    .ident-box dt{ font-size: 0.92rem; }
+}
+
+
+.btn-neru{
+    background-color: #ffcc00;
+    color: #1f1f1f;
+    border-color: #e6b800;
+}
+.btn-neru:hover,
+.btn-neru:focus{
+    background-color: #e6b200;
+    color: #111;
+    border-color: #cc9f00;
+}
+
+.btn-miku{
+    background-color: #00c2cb;
+    color: #ffffff;
+    border-color: #00a3a6;
+}
+.btn-miku:hover,
+.btn-miku:focus{
+    background-color: #00a7ab;
+    border-color: #008f92;
+}
+
+.btn-kasane{
+    background-color: #d63384;
+    color: #ffffff;
+    border-color: #b02a6b;
+}
+.btn-kasane:hover,
+.btn-kasane:focus{
+    background-color: #b02a6b;
+    border-color: #992455;
+}
+
+/* Readable content box for long paragraphs (over background image) */
+.content-box{
+    background: rgba(255,255,255,0.96);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    color: #222;
+}
+@media (max-width: 576px){
+    .content-box{ padding: 14px; }
+}
